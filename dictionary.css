@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.borBox {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+    color: Black;
+    display: flex;
+
+}
+
+.box {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+i {
+    font-size: 30px;
+    /* margin-top: 10px; */
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: #1c1c1c;
+    color: #f9f9f9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 5px;
+    width: 50%;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dark-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
